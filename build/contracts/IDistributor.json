@@ -1,0 +1,163 @@
+{
+  "contractName": "IDistributor",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "distribute",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "pragma solidity ^0.5.15;\n\ninterface IDistributor {\n    function distribute() external;\n}\n",
+  "sourcePath": "/Users/howard/src/trx-basis/tronbasiscash/contracts/interfaces/IDistributor.sol",
+  "ast": {
+    "absolutePath": "/Users/howard/src/trx-basis/tronbasiscash/contracts/interfaces/IDistributor.sol",
+    "exportedSymbols": {
+      "IDistributor": [
+        5546
+      ]
+    },
+    "id": 5547,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 5542,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".15"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:19"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 5546,
+        "linearizedBaseContracts": [
+          5546
+        ],
+        "name": "IDistributor",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "id": 5545,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "distribute",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 5543,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "74:2:19"
+            },
+            "returnParameters": {
+              "id": 5544,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "85:0:19"
+            },
+            "scope": 5546,
+            "src": "55:31:19",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 5547,
+        "src": "26:62:19"
+      }
+    ],
+    "src": "0:89:19"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/howard/src/trx-basis/tronbasiscash/contracts/interfaces/IDistributor.sol",
+    "exportedSymbols": {
+      "IDistributor": [
+        5546
+      ]
+    },
+    "id": 5547,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 5542,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".15"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:19"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 5546,
+        "linearizedBaseContracts": [
+          5546
+        ],
+        "name": "IDistributor",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "id": 5545,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "distribute",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 5543,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "74:2:19"
+            },
+            "returnParameters": {
+              "id": 5544,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "85:0:19"
+            },
+            "scope": 5546,
+            "src": "55:31:19",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 5547,
+        "src": "26:62:19"
+      }
+    ],
+    "src": "0:89:19"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.15+commit.fd7f48cf.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2021-01-15T10:11:21.376Z"
+}
